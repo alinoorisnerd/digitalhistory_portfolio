@@ -1,0 +1,136 @@
+body{
+    background-image: url(assets/vecteezy_ai-generated-papyrus-scroll-paper-background_42193918.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    border-bottom: 1px solid rgb(89, 78, 78);
+    height: 60px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+a{
+    font-style: italic;
+    color: black;
+}
+
+.logo{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 20px;
+}
+
+.title{
+margin-left: 440px;
+margin-right: 270px;
+
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.homepage_body{
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.about_card{
+    /* border: 0.5px solid rgb(89, 78, 78); */
+    height: auto;
+    width: 850px;
+    margin-left: 80px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    /* padding-left: 40px;
+    padding-right:40px ; */
+    /* padding-top: 10px; */
+    padding-bottom: 20px;
+    box-shadow: crimson;
+    text-align: start;
+    line-height: 35px;
+    margin-top: 40px;
+    row-gap: 20px;
+    padding-left: 20px;
+    
+
+}
+
+.home_image{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 40px;
+    
+}
+
+
+.footy{
+ 
+    height: 70px;
+    margin-top: 10px;
+}
+
+.title_font{
+    font-family: "Allura";
+    font-size: 30pt;
+    margin-bottom: 5px;
+    margin-left: 180px;
+    
+    border-bottom: 2px solid black;
+}
+
+.paragraph_font{
+    font-family: "Allura";
+    font-size: 19pt;
+    line-height: 1.5;
+    line-break: loose;
+    text-align: start;
+    letter-spacing: 1.5px;
+    
+    /* font-style: italic; */
+    
+    
+}
+
+
+.portfolio_activities{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 16px;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.portfolio_activities a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-right: 30px;
+  }
+  
+
+
+
+.show {display:block;}
